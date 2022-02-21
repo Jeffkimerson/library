@@ -3,7 +3,7 @@ let myLibrary = [];
 function Book(title, author, pages, read) {
     title
     author
-    this.pages = pages + "pages"
+    pages
     this.read = function() {
         if(read == true) {
             return "read";
@@ -11,6 +11,9 @@ function Book(title, author, pages, read) {
         else {
             return "not read yet";
         }
+    }
+    this.info = function() {
+        return `${title} by ${author}, ${pages} pages, ${read}`;
     }
 }
 
