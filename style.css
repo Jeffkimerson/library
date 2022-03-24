@@ -1,5 +1,18 @@
-.modal-btn {
-    
+.btn {
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+    border-radius: 5px;
+    display: in-line-block;
+    padding: 6px 18px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: #04AA6D;
+    color: #ffffff;
 }
 
 .modal {
